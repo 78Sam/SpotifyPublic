@@ -34,12 +34,10 @@ public class SpotifyClient {
 
             if (file_reader.hasNextLine()) {
                 this.client_id = file_reader.nextLine();
-                System.out.println(this.client_id);
             }
 
             if (file_reader.hasNextLine()) {
                 this.client_secret = file_reader.nextLine();
-                System.out.println(this.client_secret);
             }
 
             file_reader.close();
